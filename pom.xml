@@ -3,4 +3,27 @@
   <groupId>ZeroC_ICE_demo_customer</groupId>
   <artifactId>ZeroC_ICE_demo_customer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.zeroc/ice -->
+		<dependency>
+			<groupId>com.zeroc</groupId>
+			<artifactId>ice</artifactId>
+			<version>3.6.2</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
